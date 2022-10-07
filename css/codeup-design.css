@@ -1,3 +1,8 @@
+@media screen and (max-width: 992px) {
+    .hidden-lg {
+        display: none;
+    }
+}
 body, .navbar {
     background-color: #f0f0f0;
 }
