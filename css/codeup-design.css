@@ -1,4 +1,4 @@
-body {
+body, .navbar {
     background-color: #f0f0f0;
 }
 .red-circle {
@@ -45,4 +45,45 @@ body {
     font-weight: bold;
     color: white;
     font-size: 15px;
+}
+.small-red-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6563b;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+}
+.small-orange-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB9D3A;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+}
+.small-green-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7cb06c;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+}
+.small-blue-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00aba9;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+}
+.small-inner-circle {
+    font-weight: bold;
+    color: black;
+    font-size: 8px;
 }
