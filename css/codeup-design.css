@@ -1,10 +1,22 @@
+
+
+
+
 @media screen and (max-width: 992px) {
     .hidden-lg {
         display: none;
     }
 }
+/*@media screen and (max-width: 768px) {*/
+/*    .hidden-lg {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
 body, .navbar {
     background-color: #f0f0f0;
+}
+.anreg {
+    font-family: 'Anton', sans-serif;
 }
 .red-circle {
     display: flex;
