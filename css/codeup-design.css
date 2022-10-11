@@ -109,3 +109,8 @@ h1 {
     color: black;
     font-size: 9px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .lrg-padding {
+        padding-bottom: 4em;
+    }
+}
