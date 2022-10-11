@@ -18,6 +18,9 @@ h1 {
 .anreg {
     font-family: 'Anton', sans-serif;
 }
+.abreg {
+    font-family: 'Abel', sans-serif;
+}
 .red-circle {
     display: flex;
     justify-content: center;
