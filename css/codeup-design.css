@@ -1,21 +1,15 @@
-
-@media screen and (max-width: 992px) {
-    .hidden-lg {
-        display: none;
-    }
-}
 body, .navbar {
     background-color: #f0f0f0;
 }
-h1 {
-    /*font-size: 3em;*/
-}
+
 .anreg {
     font-family: 'Anton', sans-serif;
 }
+
 .abreg {
     font-family: 'Abel', sans-serif;
 }
+
 .red-circle {
     display: flex;
     justify-content: center;
@@ -26,6 +20,7 @@ h1 {
     height: 105px;
     width: 105px;
 }
+
 .orange-circle {
     display: flex;
     justify-content: center;
@@ -36,6 +31,7 @@ h1 {
     height: 105px;
     width: 105px;
 }
+
 .green-circle {
     display: flex;
     justify-content: center;
@@ -46,6 +42,7 @@ h1 {
     height: 105px;
     width: 105px;
 }
+
 .blue-circle {
     display: flex;
     justify-content: center;
@@ -56,12 +53,12 @@ h1 {
     height: 105px;
     width: 105px;
 }
+
 .inner-circle {
     font-weight: bold;
     color: white;
     font-size: 18px;
 }
-
 
 .small-red-circle {
     display: flex;
@@ -72,6 +69,7 @@ h1 {
     height: 18px;
     width: 18px;
 }
+
 .small-orange-circle {
     display: flex;
     justify-content: center;
@@ -81,6 +79,7 @@ h1 {
     height: 18px;
     width: 18px;
 }
+
 .small-green-circle {
     display: flex;
     justify-content: center;
@@ -90,6 +89,7 @@ h1 {
     height: 18px;
     width: 18px;
 }
+
 .small-blue-circle {
     display: flex;
     justify-content: center;
@@ -99,13 +99,21 @@ h1 {
     height: 18px;
     width: 18px;
 }
+
 .small-inner-circle {
     font-weight: bold;
     color: black;
     font-size: 9px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .lrg-padding {
         padding-bottom: 4em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hidden-lg {
+        display: none;
     }
 }
